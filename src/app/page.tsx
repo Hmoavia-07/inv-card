@@ -13,7 +13,7 @@ const InvitationCard = () => {
   };
 
   return (
-    <div className="pt-80 flex flex-col items-center justify-center h-screen bg-gradient-to-b from-gray-200 to-gray-100 px-4">
+    <div className=" flex flex-col items-center justify-center h-screen bg-gradient-to-b from-gray-200 to-gray-100 px-4">
       {/* Open Card Button */}
       {!isOpen && (
         <motion.button
